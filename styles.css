@@ -1,0 +1,48 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.country-name{
+    margin: 0;
+    text-align: center;
+    padding: 3%;
+    font-weight: 300;
+    background-color: rgb(54, 54, 54);
+    color: #FFF ;
+    
+}
+.body-bg{
+    background: rgb(237,223,168);
+    background: linear-gradient(90deg, rgba(237,223,168,1) 0%, rgba(100,101,87,1) 100%, rgba(241,190,22,1) 100%, rgba(174,210,214,1) 1223%);
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+img{
+    width: 15rem;
+    height: 10rem;
+}
+ul{
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+.hidden{
+    visibility: hidden;
+    color: red;
+}
+.border{
+    border: 0;
+    padding: 0;
+    margin: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+#button:hover{
+    background-color:rgb(237,223,168);
+}
