@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(36, 64, 84);
 }
 .country-name{
     margin: 0;
@@ -45,4 +46,15 @@ ul{
 
 #button:hover{
     background-color:rgb(237,223,168);
+}
+.navbar p{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 2rem;
+    font-style: italic;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
 }

@@ -9,7 +9,7 @@ async function getData(){
             if(true){
             lat = restData[i].latlng[0]
             long = restData[i].latlng[1]
-            let weatherAPI = await fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=7e01312693145aa48718efca21b9550f`)
+            let weatherAPI = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=7e01312693145aa48718efca21b9550f`)
             let weatherResponse = await weatherAPI.json()
             restData[33].latlng = [10,20]
             let div = document.createElement("div")
